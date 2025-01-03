@@ -29,10 +29,3 @@ Clonez le repository backend depuis GitHub :
 ```bash
 git clone -b oumaima https://github.com/oumaimakhlifi/projet-DevOps.git
 cd projet-DevOps
-
-cd projet-DevOps/app
-kubectl apply -f app.yml
-kubectl apply -f dep.yml
-kubectl apply -f depfront.yml
-kubectl apply -f depmysql.yml
-kubectl apply -f pv.yml
