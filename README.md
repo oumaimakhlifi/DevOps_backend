@@ -1,6 +1,6 @@
-# 🚀 **Projet DevOps - Application Spring Backend avec Minikube et ArgoCD**  
+# 🚀 **Projet DevOps - Application Spring Backend avec Minikube, ArgoCD, Prometheus et Grafana**  
 
-Bienvenue dans le projet backend basé sur **Spring Boot** ! Ce backend fait partie d'une application complète avec un frontend, un backend, et une base de données. Ce document explique comment configurer, construire, déployer et orchestrer cette application avec des outils DevOps comme **Minikube**, **ArgoCD**, **Docker**, **Jenkins**, et bien d'autres.
+Bienvenue dans le projet backend basé sur **Spring Boot** ! Ce backend fait partie d'une application complète avec un frontend, un backend, et une base de données. Ce document explique comment configurer, construire, déployer, surveiller et orchestrer cette application avec des outils DevOps comme **Minikube**, **ArgoCD**, **Docker**, **Jenkins**, **Prometheus**, **Grafana**, et bien d'autres.
 
 ---
 
@@ -17,6 +17,7 @@ Avant de commencer, assurez-vous d'avoir les outils suivants installés et confi
 - 🔍 Accès à **SonarQube** et **Nexus** (avec vos identifiants)  
 - 🖥️ **Minikube** (pour la création d'un cluster Kubernetes local)  
 - 🌲 **ArgoCD** (pour l'orchestration et la gestion des déploiements Kubernetes via CI/CD)  
+- 📊 **Prometheus** et **Grafana** pour la surveillance de Jenkins et de l'application Spring.  
 
 ---
 
