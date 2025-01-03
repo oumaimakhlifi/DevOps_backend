@@ -1,12 +1,12 @@
-# 🚀 **Projet DevOps - Application Spring Backend**  
+# 🚀 **Projet DevOps - Application Spring Backend avec Minikube et ArgoCD**  
 
-Bienvenue dans le projet backend basé sur **Spring Boot** ! Ce backend est conçu pour fonctionner dans une architecture DevOps complète comprenant un frontend, un backend, et une base de données. Ce document vous guidera pour configurer, construire et déployer l'application à l'aide d'outils comme **Docker**, **Jenkins**, et bien d'autres.
+Bienvenue dans le projet backend basé sur **Spring Boot** ! Ce backend fait partie d'une application complète avec un frontend, un backend, et une base de données. Ce document explique comment configurer, construire, déployer et orchestrer cette application avec des outils DevOps comme **Minikube**, **ArgoCD**, **Docker**, **Jenkins**, et bien d'autres.
 
 ---
 
 ## **📋 Prérequis**  
 
-Avant de commencer, assurez-vous d'avoir les outils suivants correctement installés et configurés :  
+Avant de commencer, assurez-vous d'avoir les outils suivants installés et configurés sur votre machine :  
 
 - ☕ **Java JDK** (version 11 ou supérieure)  
 - 🛠️ **Maven** (version 3.6 ou supérieure)  
@@ -15,13 +15,15 @@ Avant de commencer, assurez-vous d'avoir les outils suivants correctement instal
 - 🧑‍💻 **Jenkins** (avec des pipelines configurés)  
 - 🌐 **Ngrok** (pour les webhooks Jenkins)  
 - 🔍 Accès à **SonarQube** et **Nexus** (avec vos identifiants)  
+- 🖥️ **Minikube** (pour la création d'un cluster Kubernetes local)  
+- 🌲 **ArgoCD** (pour l'orchestration et la gestion des déploiements Kubernetes via CI/CD)  
 
 ---
 
 ## **📂 Étapes pour exécuter le projet**
 
 ### 1️⃣ **Cloner le projet**  
-Clonez le repository backend depuis GitHub :  
+Clonez le repository backend depuis GitHub :  
 
 ```bash
 git clone -b oumaima https://github.com/oumaimakhlifi/projet-DevOps.git
