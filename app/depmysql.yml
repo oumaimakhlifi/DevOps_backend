@@ -21,15 +21,15 @@ spec:
             - name: MYSQL_DATABASE
               value: "stationSki"
             - name: MYSQL_ROOT_PASSWORD
-              value: ""  # Définissez ici un mot de passe pour l'utilisateur root
+              value: ""  
             - name: MYSQL_ALLOW_EMPTY_PASSWORD
-              value: "yes"  # Si vous voulez laisser le mot de passe vide
+              value: "yes"
           volumeMounts:
             - name: db-data
               mountPath: /var/lib/mysql
       volumes:
         - name: db-data
-          emptyDir: {}  # Utilisez un PersistentVolumeClaim pour les données persistantes dans un environnement de production
+          emptyDir: {} 
 ---
 apiVersion: v1
 kind: Service
