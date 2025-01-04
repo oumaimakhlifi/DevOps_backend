@@ -14,7 +14,7 @@ pipeline {
 
         stage('Checkout Backend') {
             steps {
-                git branch: 'oumaima', url: 'https://github.com/oumaimakhlifi/projet-DevOps.git'
+                git branch: 'master', url: 'https://github.com/oumaimakhlifi/DevOps_backend.git'
             }
         }
 
