@@ -39,3 +39,21 @@ spec:
       nodePort: 30001  # Modifiez ici
   selector:
     app: spring-boot-app
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
