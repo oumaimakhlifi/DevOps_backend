@@ -40,5 +40,4 @@ public class CourseServicesImpl implements  ICourseServices{
             courseRepository.delete(course);
         }
     }
-
 }
