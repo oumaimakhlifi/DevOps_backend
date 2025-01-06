@@ -27,5 +27,5 @@ Avant de commencer, assurez-vous d'avoir les outils suivants installés et confi
 Clonez le repository backend depuis GitHub :  
 
 ```bash
-git clone -b oumaima https://github.com/oumaimakhlifi/projet-DevOps.git
-cd projet-DevOps
+git clone -b master https://github.com/oumaimakhlifi/DevOps_backend.git
+cd DevOps_backend
